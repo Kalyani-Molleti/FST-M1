@@ -1,0 +1,7 @@
+def a(n):
+    if n<=0:
+        return n 
+    else:
+        return n + a(n-1)
+c=int(input("give a num"))
+print("the final val is : "+str(a(c)))

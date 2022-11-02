@@ -1,0 +1,6 @@
+a = list(map(int,input("enter the list of input").split(" ")))
+#print(sum(a))
+sum=0
+for i in range(len(a)):
+    sum=sum+a[i]
+print(sum)

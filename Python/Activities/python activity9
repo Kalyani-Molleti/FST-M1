@@ -1,0 +1,15 @@
+a= list(map(int,input("give list1").split(" ")))
+b= list(map(int,input("give list2").split(" ")))
+c=[]
+for i in a:
+    if i%2!=0:
+        c.append(i)
+for i in b:
+    if i%2==0:
+        c.append(i)
+print(c)
+a.extend(b)
+print(a)
+a.append(b)
+print(a)
+

@@ -1,0 +1,27 @@
+a= "rock"
+b="paper"
+c="scissors"
+e = True
+while(e):
+
+    player1 = input("select paper/scissor/rock for player1:").lower()
+    player2 = input("select paper/scissor/rock for player2:").lower()
+
+    if (player1 == "rock" and player2 == "scissors") or (player1 == "scissors" and player2 == "paper") or(player1 == "paper" and player2 == "rock"):
+        print("player 1 is the winner")
+    elif(player1 == player2):
+        print("It's a tie!")
+    else:
+        print("player 2 is the winner")
+    cc = input("do you wanna continue-[give yes or no]").lower()
+    if cc=="yes":
+        e=True
+    elif cc == "no":
+        e=False
+        raise SystemExit
+
+
+
+
+
+

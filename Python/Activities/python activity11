@@ -1,0 +1,7 @@
+d={'banana':20,'apple':30,'orange':60}
+for i in d:
+    if i=='apple':
+        print(True)
+        break
+else:
+    print(False)
